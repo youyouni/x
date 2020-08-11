@@ -29,20 +29,20 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/balancer"
-	_ "github.com/youyouni/cryptogm/internal/google.golang.org/grpc/balancer/roundrobin" // To register roundrobin.
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/codes"
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/connectivity"
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/credentials"
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/grpclog"
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/internal/backoff"
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/internal/channelz"
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/internal/transport"
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/keepalive"
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/resolver"
-	_ "github.com/youyouni/cryptogm/internal/google.golang.org/grpc/resolver/dns"         // To register dns resolver.
-	_ "github.com/youyouni/cryptogm/internal/google.golang.org/grpc/resolver/passthrough" // To register passthrough resolver.
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/status"
+	"github.com/youyouni/x/google.golang.org/grpc/balancer"
+	_ "github.com/youyouni/x/google.golang.org/grpc/balancer/roundrobin" // To register roundrobin.
+	"github.com/youyouni/x/google.golang.org/grpc/codes"
+	"github.com/youyouni/x/google.golang.org/grpc/connectivity"
+	"github.com/youyouni/x/google.golang.org/grpc/credentials"
+	"github.com/youyouni/x/google.golang.org/grpc/grpclog"
+	"github.com/youyouni/x/google.golang.org/grpc/internal/backoff"
+	"github.com/youyouni/x/google.golang.org/grpc/internal/channelz"
+	"github.com/youyouni/x/google.golang.org/grpc/internal/transport"
+	"github.com/youyouni/x/google.golang.org/grpc/keepalive"
+	"github.com/youyouni/x/google.golang.org/grpc/resolver"
+	_ "github.com/youyouni/x/google.golang.org/grpc/resolver/dns"         // To register dns resolver.
+	_ "github.com/youyouni/x/google.golang.org/grpc/resolver/passthrough" // To register passthrough resolver.
+	"github.com/youyouni/x/google.golang.org/grpc/status"
 	"golang.org/x/net/context"
 	"golang.org/x/net/trace"
 )

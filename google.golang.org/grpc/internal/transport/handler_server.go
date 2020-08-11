@@ -34,12 +34,12 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/codes"
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/credentials"
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/metadata"
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/peer"
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/stats"
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/status"
+	"github.com/youyouni/x/google.golang.org/grpc/codes"
+	"github.com/youyouni/x/google.golang.org/grpc/credentials"
+	"github.com/youyouni/x/google.golang.org/grpc/metadata"
+	"github.com/youyouni/x/google.golang.org/grpc/peer"
+	"github.com/youyouni/x/google.golang.org/grpc/stats"
+	"github.com/youyouni/x/google.golang.org/grpc/status"
 	"golang.org/x/net/context"
 	"golang.org/x/net/http2"
 )

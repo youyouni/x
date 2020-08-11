@@ -23,7 +23,7 @@ package status
 import (
 	"context"
 
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/codes"
+	"github.com/youyouni/x/google.golang.org/grpc/codes"
 	netctx "golang.org/x/net/context"
 )
 

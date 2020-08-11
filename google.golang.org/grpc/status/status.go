@@ -33,8 +33,8 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes"
-	spb "github.com/youyouni/cryptogm/internal/google.golang.org/genproto/googleapis/rpc/status"
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/codes"
+	spb "github.com/youyouni/x/google.golang.org/genproto/googleapis/rpc/status"
+	"github.com/youyouni/x/google.golang.org/grpc/codes"
 )
 
 // statusError is an alias of a status proto.  It implements error and Status,

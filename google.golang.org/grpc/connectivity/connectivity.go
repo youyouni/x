@@ -22,7 +22,7 @@
 package connectivity
 
 import (
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/grpclog"
+	"github.com/youyouni/x/google.golang.org/grpc/grpclog"
 	"golang.org/x/net/context"
 )
 

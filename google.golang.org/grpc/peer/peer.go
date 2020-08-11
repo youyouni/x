@@ -23,7 +23,7 @@ package peer
 import (
 	"net"
 
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/credentials"
+	"github.com/youyouni/x/google.golang.org/grpc/credentials"
 	"golang.org/x/net/context"
 )
 

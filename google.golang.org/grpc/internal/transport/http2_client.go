@@ -32,14 +32,14 @@ import (
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/hpack"
 
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/codes"
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/credentials"
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/internal/channelz"
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/keepalive"
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/metadata"
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/peer"
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/stats"
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/status"
+	"github.com/youyouni/x/google.golang.org/grpc/codes"
+	"github.com/youyouni/x/google.golang.org/grpc/credentials"
+	"github.com/youyouni/x/google.golang.org/grpc/internal/channelz"
+	"github.com/youyouni/x/google.golang.org/grpc/keepalive"
+	"github.com/youyouni/x/google.golang.org/grpc/metadata"
+	"github.com/youyouni/x/google.golang.org/grpc/peer"
+	"github.com/youyouni/x/google.golang.org/grpc/stats"
+	"github.com/youyouni/x/google.golang.org/grpc/status"
 )
 
 // http2Client implements the ClientTransport interface with HTTP2.

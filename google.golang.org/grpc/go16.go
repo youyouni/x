@@ -26,9 +26,9 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/codes"
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/internal/transport"
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/status"
+	"github.com/youyouni/x/google.golang.org/grpc/codes"
+	"github.com/youyouni/x/google.golang.org/grpc/internal/transport"
+	"github.com/youyouni/x/google.golang.org/grpc/status"
 	"golang.org/x/net/context"
 )
 

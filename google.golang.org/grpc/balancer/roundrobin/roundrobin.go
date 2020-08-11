@@ -24,10 +24,10 @@ package roundrobin
 import (
 	"sync"
 
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/balancer"
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/balancer/base"
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/grpclog"
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/resolver"
+	"github.com/youyouni/x/google.golang.org/grpc/balancer"
+	"github.com/youyouni/x/google.golang.org/grpc/balancer/base"
+	"github.com/youyouni/x/google.golang.org/grpc/grpclog"
+	"github.com/youyouni/x/google.golang.org/grpc/resolver"
 	"golang.org/x/net/context"
 )
 

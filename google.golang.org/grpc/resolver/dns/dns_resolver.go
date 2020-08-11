@@ -31,10 +31,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/grpclog"
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/internal/backoff"
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/internal/grpcrand"
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/resolver"
+	"github.com/youyouni/x/google.golang.org/grpc/grpclog"
+	"github.com/youyouni/x/google.golang.org/grpc/internal/backoff"
+	"github.com/youyouni/x/google.golang.org/grpc/internal/grpcrand"
+	"github.com/youyouni/x/google.golang.org/grpc/resolver"
 	"golang.org/x/net/context"
 )
 

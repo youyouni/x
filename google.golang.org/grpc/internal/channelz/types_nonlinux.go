@@ -20,7 +20,7 @@
 
 package channelz
 
-import "github.com/youyouni/cryptogm/internal/google.golang.org/grpc/grpclog"
+import "github.com/youyouni/x/google.golang.org/grpc/grpclog"
 
 func init() {
 	grpclog.Infof("Channelz: socket options are not supported on non-linux os and appengine.")

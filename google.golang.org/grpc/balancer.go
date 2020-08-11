@@ -22,11 +22,11 @@ import (
 	"net"
 	"sync"
 
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/codes"
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/credentials"
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/grpclog"
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/naming"
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/status"
+	"github.com/youyouni/x/google.golang.org/grpc/codes"
+	"github.com/youyouni/x/google.golang.org/grpc/credentials"
+	"github.com/youyouni/x/google.golang.org/grpc/grpclog"
+	"github.com/youyouni/x/google.golang.org/grpc/naming"
+	"github.com/youyouni/x/google.golang.org/grpc/status"
 	"golang.org/x/net/context"
 )
 

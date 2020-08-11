@@ -25,9 +25,9 @@ import (
 	"net"
 	"strings"
 
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/connectivity"
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/credentials"
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/resolver"
+	"github.com/youyouni/x/google.golang.org/grpc/connectivity"
+	"github.com/youyouni/x/google.golang.org/grpc/credentials"
+	"github.com/youyouni/x/google.golang.org/grpc/resolver"
 	"golang.org/x/net/context"
 )
 

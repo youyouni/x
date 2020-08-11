@@ -32,9 +32,9 @@ import (
 	"unicode/utf8"
 
 	"github.com/golang/protobuf/proto"
-	spb "github.com/youyouni/cryptogm/internal/google.golang.org/genproto/googleapis/rpc/status"
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/codes"
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/status"
+	spb "github.com/youyouni/x/google.golang.org/genproto/googleapis/rpc/status"
+	"github.com/youyouni/x/google.golang.org/grpc/codes"
+	"github.com/youyouni/x/google.golang.org/grpc/status"
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/hpack"
 )

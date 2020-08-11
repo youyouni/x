@@ -21,7 +21,7 @@
 
 package transport
 
-import "github.com/youyouni/cryptogm/internal/google.golang.org/grpc/grpclog"
+import "github.com/youyouni/x/google.golang.org/grpc/grpclog"
 
 const logLevel = 2
 

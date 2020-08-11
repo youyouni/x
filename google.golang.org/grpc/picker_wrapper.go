@@ -22,12 +22,12 @@ import (
 	"io"
 	"sync"
 
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/balancer"
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/codes"
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/grpclog"
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/internal/channelz"
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/internal/transport"
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/status"
+	"github.com/youyouni/x/google.golang.org/grpc/balancer"
+	"github.com/youyouni/x/google.golang.org/grpc/codes"
+	"github.com/youyouni/x/google.golang.org/grpc/grpclog"
+	"github.com/youyouni/x/google.golang.org/grpc/internal/channelz"
+	"github.com/youyouni/x/google.golang.org/grpc/internal/transport"
+	"github.com/youyouni/x/google.golang.org/grpc/status"
 	"golang.org/x/net/context"
 )
 

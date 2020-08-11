@@ -21,7 +21,7 @@
 package status
 
 import (
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/codes"
+	"github.com/youyouni/x/google.golang.org/grpc/codes"
 	"golang.org/x/net/context"
 )
 

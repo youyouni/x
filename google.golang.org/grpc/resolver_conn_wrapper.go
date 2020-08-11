@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/grpclog"
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/resolver"
+	"github.com/youyouni/x/google.golang.org/grpc/grpclog"
+	"github.com/youyouni/x/google.golang.org/grpc/resolver"
 )
 
 // ccResolverWrapper is a wrapper on top of cc for resolvers.

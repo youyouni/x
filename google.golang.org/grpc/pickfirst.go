@@ -19,10 +19,10 @@
 package grpc
 
 import (
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/balancer"
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/connectivity"
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/grpclog"
-	"github.com/youyouni/cryptogm/internal/google.golang.org/grpc/resolver"
+	"github.com/youyouni/x/google.golang.org/grpc/balancer"
+	"github.com/youyouni/x/google.golang.org/grpc/connectivity"
+	"github.com/youyouni/x/google.golang.org/grpc/grpclog"
+	"github.com/youyouni/x/google.golang.org/grpc/resolver"
 	"golang.org/x/net/context"
 )
 
